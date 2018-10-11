@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+.background {
+  background: currentColor;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: currentcolor;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color:white;
+}
+.title-slide {
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+.sub-title {
+  color:black;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.pckr {
+  background-color: #eee;
+  margin-top: -20px;
+  padding: 30px 0px;
+}
+
+.color-area {
+  .prim-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .demo-box {
+      margin: 10px 20px;
+    }
+
+  }
+}
+/*// Primary Colors*/
+.dark-original-color {
+  background-color: currentColor;
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+}
+.muted-original-color {
+  background-color: currentColor;
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+}
+.original-color {
+  background-color: currentColor;
+}
+.light-original-color {
+  background-color: currentColor;
+  -webkit-filter: opacity(.7);
+  filter: opacity(.7);
+}
+.bright-original-color {
+  background-color: currentColor;
+  -webkit-filter: brightness(2);
+  filter: brightness(2);
+}
+.adjusted-color-90 {
+  background-color: currentColor;
+  -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+}
+.adjusted-color-60 {
+  background-color: currentColor;
+  -webkit-filter: hue-rotate(60deg);
+  filter: hue-rotate(60deg);
+}
+.adjusted-color-30 {
+  background-color: currentColor;
+  -webkit-filter: hue-rotate(30deg);
+  filter: hue-rotate(30deg);
+}
+.contrast-original-color {
+  background-color: currentColor;
+  -webkit-filter: contrast(2);
+  filter: contrast(2);
+}
+.highlight-color {
+  background-color: currentColor;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.btn, .btn-large  {
+  background-color: currentColor;
+  color: currentColor;
+}
+
+
+/* ------------------- *
+ *       Box CSS       *
+ * ------------------- */
+.demo-box {
+  width: 180px; 
+  height: 50px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.demo-box-text {
+  text-align:center; 
+  padding-top:7px; 
+  font-size:.8em;
+  font-weight: 300;
+  letter-spacing:.1em;
+}
+
+/* ------------------- *
+ *  Foreground Colors  *
+ * ------------------- */
+.fg-light-text {
+  color: white;
+}
+.fg-dark-text {
+  color: black;
+}
+
+
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 260px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (min-width: 380px) {
+  .container {
+    max-width: 340px;
+  }
+}
+@media screen and (min-width: 420px) {
+  .container {
+    max-width: 380px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
